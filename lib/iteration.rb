@@ -10,11 +10,11 @@ def join_ingredients(src)
   row_idx = 0
   
   while row_idx < src.size
-    ele_idx = 0
-    while ele_idx < src[row_idx].size
-       
-    end
+    pair_sen << "I love #{src[row_idx][0]} and #{src[row_idx][1]} on my pizza"
+    
+    row_idx += 1
   end
+  
 end
 
 def find_greater_pair(src)
