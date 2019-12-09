@@ -42,4 +42,17 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  total = 0
+  
+  outer_idx = 0
+  
+  while outer_idx < src.size
+    if src[outer_idx][0].even? && src[outer_idx][1].even?
+      total += (src[outer_idx][0] + src[outer_idx][1])
+    end
+    outer_idx+= 1
+  end
+  
+  
+  
 end
