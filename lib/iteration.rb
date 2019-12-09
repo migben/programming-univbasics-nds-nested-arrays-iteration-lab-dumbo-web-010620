@@ -47,6 +47,8 @@ def total_even_pairs(src)
   outer_idx = 0
   
   while outer_idx < src.size
+    # trying to coming up with a different solution.
+    # I do know about %. 
     if src[outer_idx][0].even? && src[outer_idx][1].even?
       total += (src[outer_idx][0] + src[outer_idx][1])
     end
