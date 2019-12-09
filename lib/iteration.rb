@@ -29,7 +29,7 @@ def find_greater_pair(src)
     larger_num << src[outer_idx].max
   end
   
-  
+  larger_num
 end
 
 def total_even_pairs(src)
