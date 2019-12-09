@@ -53,6 +53,7 @@ def total_even_pairs(src)
     outer_idx+= 1
   end
   
+  total
   
   
 end
