@@ -14,7 +14,7 @@ def join_ingredients(src)
     
     row_idx += 1
   end
-  
+  pair_sen
 end
 
 def find_greater_pair(src)
