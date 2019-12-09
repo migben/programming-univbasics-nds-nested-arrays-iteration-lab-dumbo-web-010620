@@ -27,6 +27,8 @@ def find_greater_pair(src)
   
   while outer_idx < src.size
     larger_num << src[outer_idx].max
+    
+    outer_idx += 1
   end
   
   larger_num
